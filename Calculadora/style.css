@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://veddara.com/pt-br/wp-content/uploads/2023/01/Slider-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.text {
+    padding: 10px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.botoes {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-number {
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.4);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+      max-width: 120px;
+      color: white;
+      text-align: center;
+}
+
+.btnCalculo {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}   
+  
+.btnCalculo:hover {
+    background-color: #0056b3;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center; /* Center the items horizontally */
+}
+
+.output-number {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    min-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: gray;
+    text-align: center;
+}
+
+.seta {
+    padding-top: 5px;
+    font-size: 50px;
+    background: linear-gradient(10deg, aquamarine, orange);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

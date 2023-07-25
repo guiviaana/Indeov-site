@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="calculadora">
+            <form action="">
+                <div class="input-box">
+                        <p class="text">Quantos frascos você possui?</p>
+                        <input type="number" class="input-number" id="frascos" min="0">
+                        <p class="text">Quantas gotas você toma por dia?</p>
+                        <input type="number" class="input-number" id="gotas" min="0">
+                        <p class="text">Quantos ml você toma por dia?</p>
+                        <input type="number" class="input-number" id="ml" step="0.025" min="0">
+                        
+                       <!-- <div class="botoes">
+                            <button class="btnCalculo">Calcular</button>
+                            
+                        </div> -->
+                        <h1 class="seta">&#8595</h1>
+                <div class="input-box">
+                    <p class="text">Seu(s) frasco(s) durarão:</p>
+                    <input type="text" class="output-number">
+                    <p class="text">Você está tomando por dia:</p>
+                    <input type="text" class="output-number">
+                    <p class="text">Para não faltar o seu óleo, agende sua próxima compra para:</p>
+                    <input type="text" class="output-number">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/Calculadora/script.js"></script>
+</body>
+</html>
