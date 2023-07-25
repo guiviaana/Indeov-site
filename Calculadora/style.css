@@ -9,10 +9,11 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('https://veddara.com/pt-br/wp-content/uploads/2023/01/Slider-1.jpg');
+    background: url('https://img.freepik.com/free-photo/cannabis-oil-bottle-assortment_23-2148977688.jpg?w=2000');
     background-size: cover;
     background-position: center;
 }
@@ -90,4 +91,108 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+}
+
+/* CSS imagens dos óleos */
+
+
+.escolha {
+    color: white;
+    opacity: 0.8;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.linhaSuperior {
+    display: flex;
+    flex-direction: row;
+}
+
+.classe1 {
+    padding: 10px;
+}
+
+.imagem1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.classe2 {
+    padding: 10px;
+}
+
+.imagem2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.classe3 {
+    padding: 10px;
+}
+
+.imagem3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.linhaInferior {
+    display: flex;
+    flex-direction: row;
+}
+
+.classe4 {
+    padding: 10px;
+}
+
+.imagem4 {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.classe5 {
+    padding: 10px;
+}
+
+.imagem5 {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.classe6 {
+    padding: 10px;
+}
+
+.imagem6 {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.containerImagens {
+    padding-bottom: 50px;
 }

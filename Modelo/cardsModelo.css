@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, aquamarine, orange) no-repeat;
+}
+
+.linhaSuperior {
+    display: flex;
+    flex-direction: row;
+}
+
+.classe1 {
+    padding: 10px;
+}
+
+.imagem1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.classe2 {
+    padding: 10px;
+}
+
+.imagem2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.classe3 {
+    padding: 10px;
+}
+
+.imagem3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.linhaInferior {
+    display: flex;
+    flex-direction: row;
+}
+
+.classe4 {
+    padding: 10px;
+}
+
+.imagem4 {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.classe5 {
+    padding: 10px;
+}
+
+.imagem5 {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.classe6 {
+    padding: 10px;
+}
+
+.imagem6 {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
