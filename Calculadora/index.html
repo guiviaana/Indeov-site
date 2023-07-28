@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleSelect.css">
     <title>Calculator</title>
 
 </head>
@@ -35,6 +36,16 @@
             </div>
         </div>
     </div>
+
+    <!--Seleção dos produtos-->
+    <div class="containerSelect">
+        <select id="productSelect">
+            <option value="0">Escolha um produto</option>
+          </select>
+        <div id="productDetails">
+          <!-- Product details will be displayed here -->
+        </div>
+      </div>
     <!--Parte da calculadora-->
     <div class="wrapper">
         <div class="calculadora">
@@ -54,15 +65,16 @@
                         <h1 class="seta">&#8595</h1>
                 <div class="input-box">
                     <p class="text">Seu(s) frasco(s) durarão:</p>
-                    <input type="text" class="output-number">
+                    <input type="text" class="output-number" id="duracao" disabled>
                     <p class="text">Você está tomando por dia:</p>
-                    <input type="text" class="output-number">
+                    <input type="text" class="output-number" id="doseDiaria" disabled>
                     <p class="text">Para não faltar o seu óleo, agende sua próxima compra para:</p>
-                    <input type="text" class="output-number">
+                    <input type="text" class="output-number" id="proxCompra" disabled>
                 </div>
             </form>
         </div>
     </div>
-    <script src="/Calculadora/script.js"></script>
+    <script src="/Calculadora/scriptPreencher.js"></script>
+    <script src="/Calculadora/scriptSelect.js"></script>
 </body>
 </html>

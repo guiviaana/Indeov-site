@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 170vh;
     background: url('https://img.freepik.com/free-photo/cannabis-oil-bottle-assortment_23-2148977688.jpg?w=2000');
     background-size: cover;
     background-position: center;
@@ -49,11 +49,11 @@ body {
       background-color: rgba(255, 255, 255, 0.4);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
       max-width: 120px;
-      color: white;
+      color: gray;
       text-align: center;
 }
 
-.btnCalculo {
+/*.btnCalculo {
     padding: 10px;
     background-color: #007bff;
     color: #fff;
@@ -65,7 +65,7 @@ body {
   
 .btnCalculo:hover {
     background-color: #0056b3;
-}
+}*/
 
 .input-box {
     display: flex;
@@ -193,6 +193,3 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
-.containerImagens {
-    padding-bottom: 50px;
-}
